@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css">
+  </head>
+  <body>
+    <header>
+      <nav aria-label="breadcrumb" class="fs-3">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item">
+            <a href="../index.html" class="fs-3">Inicio</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="./portafolio.html" class="fs-3">Portafolio</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Contacto
+          </li>
+        </ol>
+      </nav>
+    </header>
+
+    <main class="container contact-container">
+      <h1 class="page-title">Contacto</h1>
+
+      <section id="info-contacto" class="contact-info">
+        <div class="contact-card info-card">
+          <header class="contact-header">
+            <h2 class="contact-card-title">Información de Contacto</h2>
+          </header>
+          <article class="contact-card-body">
+            <h3 class="contact-name">Mario Alberto Pereyra Justiniano</h3>
+            <p class="contact-role">Ingeniero de Sistemas en formación</p>
+
+            <address class="contact-details">
+              <div class="contact-item">
+                <strong>Teléfono:</strong>
+                <a href="tel:+59170006918" class="link">+591 70006918</a>
+              </div>
+
+              <div class="contact-item">
+                <strong>Correo Electrónico:</strong>
+                <a href="mailto:mario1w3p.j@gmail.com" class="link"
+                  >mario1w3p.j@gmail.com</a
+                >
+              </div>
+
+              <div class="contact-item">
+                <strong>Ubicación:</strong>
+                <span>Santa Cruz de la Sierra, Bolivia</span>
+              </div>
+            </address>
+
+            <aside>
+              <h4>Redes Profesionales:</h4>
+              <nav class="social-links">
+                <a
+                  href="https://www.linkedin.com/in/mario-pereyra-justiniano-86b205304"
+                  target="_blank"
+                  rel="noopener"
+                  class="social-link"
+                >
+                  LinkedIn
+                </a>
+                <br>
+                <a
+                  href="https://github.com/Mario-pereyra"
+                  target="_blank"
+                  rel="noopener"
+                  class="social-link"
+                >
+                  GitHub
+                </a>
+              </nav>
+            </aside>
+          </article>
+        </div>
+      </section>
+
+      <section id="formulario-contacto" class="contact-form">
+        <div class="form-card form-container">
+          <header class="form-header">
+            <h2 class="form-title">Envíame un Mensaje</h2>
+          </header>
+          <div class="form-body">
+            <form>
+              <fieldset class="form-section">
+                <legend class="form-legend">Información Personal</legend>
+                <div class="form-fields">
+                  <div>
+                    <label for="nombre" class="form-label"
+                      >Nombre completo</label
+                    >
+                    <input
+                      type="text"
+                      id="nombre"
+                      name="nombre"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+                  <div>
+                    <label for="email" class="form-label"
+                      >Correo electrónico</label
+                    >
+                    <input
+                      type="email"
+                      id="email"
+                      name="email"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+                </div>
+              </fieldset>
+
+              <fieldset class="form-section">
+                <legend class="form-legend">Mensaje</legend>
+                <div class="form-fields">
+                  <div>
+                    <label for="asunto" class="form-label">Asunto</label>
+                    <input
+                      type="text"
+                      id="asunto"
+                      name="asunto"
+                      required
+                      class="form-input"
+                    />
+                  </div>
+                  <div>
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea
+                      id="mensaje"
+                      name="mensaje"
+                      rows="6"
+                      required
+                      placeholder="Escribe tu mensaje aquí..."
+                      class="form-input"
+                    ></textarea>
+                  </div>
+                </div>
+              </fieldset>
+
+              <div class="form-buttons">
+                <button type="submit" class="btn btn-primary">
+                  Enviar Mensaje
+                </button>
+                <button type="reset" class="btn btn-secondary">Limpiar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
